@@ -1,10 +1,10 @@
 @Sagar: Please check "Parse data" section
 
-0. download (@Sagar)
+- download (@Sagar)
 
     git clone https://github.com/hainm/mmgbsa_decomp
 
-1. For Hai: Run mmgbsa decomposition (Done)
+- For Hai: Run mmgbsa decomposition (Done)
 
     ```bash
     # n_proteins = 87
@@ -13,7 +13,12 @@
     # update ./mmgbsa.in if needed
     ```
 
-2. Parse data (@Sagar)
+- Average energy (from 50 snapshot) for each residue in each protein
+
+   {pdb_folder}/res.csv
+   # tot = vdw  + int + eel + pol + sas
+
+- Parse data (@Sagar)
 
     ```bash
     cd 1be908_wt
@@ -28,14 +33,24 @@
     # and so on for other proteins
     ```
 
-3. Get list of corrensponding rst7 (coordinates) files (@Sagar)
+- Get list of corrensponding rst7 (coordinates) files (@Sagar)
     
     ```bash
     sh scripts/get_rst7_filelist.sh 1be908_wt
     ```
 
-4. See also (@Sagar)
+- See also (@Sagar)
 
     ```bash
     Section: "Decomposition Data" in http://ambermd.org/doc12/Amber16.pdf (page 675)
     ```
+
+- Get average energy per residue from 50 snapshots (@Hai)
+    
+   ```bash
+   cd 1be908_wt
+   python ../scripts/process_residue.py
+   # and so on for other proteins
+
+   # TODO: better name?
+   ```
