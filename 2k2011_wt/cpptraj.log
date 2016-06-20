@@ -1,0 +1,70 @@
+
+CPPTRAJ: Trajectory Analysis. V16.00
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 06/20/16 16:27:27
+| Available memory: 215.803 GB
+
+INPUT: Reading input from 'cpptraj.in'
+  [parm ../../2k2011_wt/prmtop]
+	Reading '../../2k2011_wt/prmtop' as Amber Topology
+  [trajin ../../2k2011_wt/no_restraint_new_protocol/min_NoH_*rst7"]
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_5_5_3_5_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_5_5_5_5_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_5_5_7_5_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_1_1_6_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_1_2_6_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_1_4_6_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_1_6_6_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_1_7_6_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_1_8_6_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_3_1_6_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_3_4_6_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0001_6_3_7_6_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0006_4_1_1_4_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0006_4_1_5_4_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0006_7_1_2_7_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0007_6_1_7_6_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0007_9_1_10_9_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0007_9_1_5_9_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0007_9_1_6_9_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0007_9_3_2_9_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0007_9_3_7_9_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0009_7_5_10_7_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0011_3_5_3_3_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0011_3_5_4_3_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0011_3_5_7_3_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0011_5_4_3_5_repacked_wt_round_4_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0011_5_4_5_5_repacked_wt_round_4_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0011_7_1_2_7_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0011_7_1_9_7_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0013_10_1_10_10_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0013_10_1_9_10_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0013_3_2_2_3_repacked_wt_round_2_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0013_3_2_3_3_repacked_wt_round_2_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0013_3_2_7_3_repacked_wt_round_2_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0013_6_5_10_6_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0013_6_5_1_6_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0014_1_5_3_1_repacked_wt_round_5_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_4_2_2_4_repacked_wt_round_2_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_4_2_3_4_repacked_wt_round_2_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_1_10_8_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_1_8_8_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_1_9_8_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_3_1_8_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_3_4_8_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_3_6_8_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_3_7_8_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0015_8_3_9_8_repacked_wt_round_3_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0016_3_1_10_3_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0016_5_1_4_5_repacked_wt_round_1_0001.rst7' as Amber NC Restart
+	Reading '../../2k2011_wt/no_restraint_new_protocol/min_NoH_0019_9_2_7_9_repacked_wt_round_2_0001.rst7' as Amber NC Restart
+TIME: Total execution time: 0.7855 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
