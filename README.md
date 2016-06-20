@@ -1,8 +1,10 @@
-0. download
+@Sagar: Please check "Parse data" section
+
+0. download (@Sagar)
 
     git clone https://github.com/hainm/mmgbsa_decomp
 
-1. Run mmgbsa decomposition
+1. For Hai: Run mmgbsa decomposition (Done)
 
     ```bash
     # n_proteins = 87
@@ -11,7 +13,7 @@
     # update ./mmgbsa.in if needed
     ```
 
-2. Parse data
+2. Parse data (@Sagar)
 
     ```bash
     cd 1be908_wt
@@ -24,13 +26,13 @@
     # to get a list of those snatshots, see below.
     ```
 
-3. Get list of corrensponding rst7 (coordinates) files:
+3. Get list of corrensponding rst7 (coordinates) files (@Sagar)
     
     ```bash
     sh scripts/get_rst7_filelist.sh 1be908_wt
     ```
 
-4. See also:
+4. See also (@Sagar)
 
     ```bash
     Section: "Decomposition Data" in http://ambermd.org/doc12/Amber16.pdf (page 675)
