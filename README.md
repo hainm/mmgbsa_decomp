@@ -24,6 +24,8 @@
     # Expectation: This script will print out the energy for `residue_number` for each component
     # (tot, vwd, eel, ...). Each array has length of n_snapshots (rst7 files)
     # to get a list of those snatshots, see below.
+
+    # and so on for other proteins
     ```
 
 3. Get list of corrensponding rst7 (coordinates) files (@Sagar)
