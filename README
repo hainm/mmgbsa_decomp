@@ -22,7 +22,7 @@
 
 3. Get list of corrensponding rst7 (coordinates) files:
     
-    python scripts/get_rst7_filelist.py 1be908_wt
+    sh scripts/get_rst7_filelist.sh 1be908_wt
 
 4. See also:
 
