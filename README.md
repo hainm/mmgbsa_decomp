@@ -18,6 +18,14 @@
    ```bash
    {pdb_folder}/res.csv
    # tot = vdw  + int + eel + pol + sas
+
+   # int: Internal energy contributions
+   # vdw: van der Waals energy contributions
+   # eel: Electrostatic energy contributions
+   # pol: Polar solvation free energy contributions
+   # sas: Non-polar solvation free energy contributions
+
+   # tot: Total free energy contributions (sum of previous 5).
    ```
 
 - Parse data (@Sagar)
