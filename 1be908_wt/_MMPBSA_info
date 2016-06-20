@@ -19,7 +19,7 @@ INPUT['saltcon'] = 0.0
 INPUT['entropy'] = 0
 INPUT['solvbox'] = '-1,-1,-1'
 INPUT['qmcharge_lig'] = 0
-INPUT['keep_files'] = 1
+INPUT['keep_files'] = 2
 INPUT['pbrun'] = False
 INPUT['fillratio'] = 4.0
 INPUT['gbrun'] = True
@@ -104,7 +104,7 @@ using_chamber = False
 |MMPBSA.py input file for running GB, http://ambermd.org/doc12/Amber16.pdf
 |&general
 |   startframe=1, endframe=50,
-|   keep_files=1,
+|   keep_files=2,
 |   debug_printlevel=2,
 |   use_sander=1,
 |   netcdf=1,
