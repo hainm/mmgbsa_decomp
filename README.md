@@ -13,7 +13,7 @@
     # update ./mmgbsa.in if needed
     ```
 
-- Average energy (from 50 snapshot) for each residue in each protein
+- Average energy (from 50 snapshots) for each residue in each protein
 
    ```bash
    {pdb_folder}/res.csv
