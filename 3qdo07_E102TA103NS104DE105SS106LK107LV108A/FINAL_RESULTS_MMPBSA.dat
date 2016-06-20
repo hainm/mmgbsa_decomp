@@ -1,0 +1,56 @@
+| Run on Mon Jun 20 15:46:08 2016
+|
+|Input file:
+|--------------------------------------------------------------
+|MMPBSA.py input file for running GB, http://ambermd.org/doc12/Amber16.pdf
+|&general
+|   startframe=1, endframe=50,
+|   keep_files=1,
+|   debug_printlevel=2,
+|   use_sander=1,
+|   netcdf=1,
+|/
+|&gb
+|   igb=8,
+|   molsurf=0,
+|/
+|&decomp
+|   csv_format=1,
+|   dec_verbose=0,
+|   idecomp=2,
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           ../../3qdo07_E102TA103NS104DE105SS106LK107LV108A/prmtop
+|Initial mdcrd(s):                ../../3qdo07_E102TA103NS104DE105SS106LK107LV108A/no_restraint_new_protocol/min_NoH_*rst7
+|
+|Calculations performed using 50 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+BOND                        63.5981                0.1357              0.0192
+ANGLE                      209.8135                0.3598              0.0509
+DIHED                     1052.8030                1.0223              0.1446
+VDWAALS                   -794.7956                1.5334              0.2169
+EEL                      -6976.3066               11.7189              1.6573
+1-4 VDW                    296.8696                0.2809              0.0397
+1-4 EEL                   3299.5500                2.0200              0.2857
+EGB                      -1715.8342                9.5353              1.3485
+ESURF                       43.5237                0.1745              0.0247
+
+G gas                    -2848.4680               10.6456              1.5055
+G solv                   -1672.3105                9.4205              1.3323
+
+TOTAL                    -4520.7785                2.0208              0.2858
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

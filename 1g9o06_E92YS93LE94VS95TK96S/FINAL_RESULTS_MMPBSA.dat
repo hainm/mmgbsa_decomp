@@ -1,0 +1,56 @@
+| Run on Mon Jun 20 15:45:52 2016
+|
+|Input file:
+|--------------------------------------------------------------
+|MMPBSA.py input file for running GB, http://ambermd.org/doc12/Amber16.pdf
+|&general
+|   startframe=1, endframe=50,
+|   keep_files=1,
+|   debug_printlevel=2,
+|   use_sander=1,
+|   netcdf=1,
+|/
+|&gb
+|   igb=8,
+|   molsurf=0,
+|/
+|&decomp
+|   csv_format=1,
+|   dec_verbose=0,
+|   idecomp=2,
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           ../../1g9o06_E92YS93LE94VS95TK96S/prmtop
+|Initial mdcrd(s):                ../../1g9o06_E92YS93LE94VS95TK96S/no_restraint_new_protocol/min_NoH_*rst7
+|
+|Calculations performed using 50 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+BOND                        57.0797                0.1492              0.0211
+ANGLE                      205.0423                0.5410              0.0765
+DIHED                      979.2325                1.6436              0.2324
+VDWAALS                   -734.9814                2.7889              0.3944
+EEL                      -6410.7340               11.8797              1.6800
+1-4 VDW                    275.3077                0.4649              0.0658
+1-4 EEL                   3106.4291                2.6364              0.3728
+EGB                      -1761.0203                7.8966              1.1167
+ESURF                       43.7275                0.2111              0.0299
+
+G gas                    -2522.6241                8.9250              1.2622
+G solv                   -1717.2928                7.7769              1.0998
+
+TOTAL                    -4239.9169                3.9777              0.5625
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------

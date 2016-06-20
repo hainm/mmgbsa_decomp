@@ -1,0 +1,56 @@
+| Run on Mon Jun 20 15:46:17 2016
+|
+|Input file:
+|--------------------------------------------------------------
+|MMPBSA.py input file for running GB, http://ambermd.org/doc12/Amber16.pdf
+|&general
+|   startframe=1, endframe=50,
+|   keep_files=1,
+|   debug_printlevel=2,
+|   use_sander=1,
+|   netcdf=1,
+|/
+|&gb
+|   igb=8,
+|   molsurf=0,
+|/
+|&decomp
+|   csv_format=1,
+|   dec_verbose=0,
+|   idecomp=2,
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           ../../3qdo11_E102DA103EA104DA105QA106HA107SS108QE109IS110T/prmtop
+|Initial mdcrd(s):                ../../3qdo11_E102DA103EA104DA105QA106HA107SS108QE109IS110T/no_restraint_new_protocol/min_NoH_*rst7
+|
+|Calculations performed using 50 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+BOND                        66.2031                0.2843              0.0402
+ANGLE                      234.6590                0.8283              0.1171
+DIHED                     1103.0702                1.9852              0.2808
+VDWAALS                   -813.1143                3.4563              0.4888
+EEL                      -7408.1177               25.1145              3.5517
+1-4 VDW                    308.2079                0.6344              0.0897
+1-4 EEL                   3648.9306                4.7548              0.6724
+EGB                      -1895.6641               23.8021              3.3661
+ESURF                       47.8792                0.5103              0.0722
+
+G gas                    -2860.1612               25.8804              3.6600
+G solv                   -1847.7848               23.4905              3.3221
+
+TOTAL                    -4707.9461                3.1011              0.4386
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
