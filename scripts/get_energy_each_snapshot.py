@@ -1,10 +1,3 @@
-'''pytraj note: changed (a bit) from pandas.io.pickle module
-'''
-# pandas is distributed under a 3-clause ("Simplified" or "New") BSD
-# license.
-
-# Note: full license is in $PYTRAJHOME/license/externals/pandas.txt
-
 from __future__ import print_function
 import cPickle as pkl
 
