@@ -11,6 +11,16 @@
     mpirun -n 87 python decomp_mpi.py
 
     # update ./mmgbsa.in if needed
+
+
+    ```
+
+- Get energy for each residue for each structure
+
+    ```bash
+    python ./scripts/get_energy_each_snapshot.py 1n7t07_wt
+
+    # change 1n7t07_wt to other pdb folder too
     ```
 
 - Average energy (from 50 snapshots) for each residue in each protein

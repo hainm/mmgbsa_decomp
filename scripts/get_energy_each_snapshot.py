@@ -24,6 +24,6 @@ if __name__ == '__main__':
     pdb_folder = sys.argv[1]
     decomp_data = read_pickle(pdb_folder + '/energy_per_residue_per_structure.pk')
 
-    residue = 1
-    energy_term = 'tot'
-    print(decomp_data[residue][energy_term])
+    for residue in decomp_data:
+        energy_term = 'tot'
+        print('res = {}, energy={}'.format(residue, decomp_data[residue][energy_term]))
